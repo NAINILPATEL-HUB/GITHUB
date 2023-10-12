@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int item,cost,expenses,atp;
+clrscr();
+
+printf("enter the quality of item");
+scanf("%d",&item);
+
+printf("enter the price");
+scanf("%d",&cost);
+
+expenses=item*cost;
+
+if(item>1000)
+{
+atp=expenses-expenses*0.100;
+printf("amount to be paid=%d",atp);
+}
+else
+{
+printf("amount to be paid=%d",expenses);
+}
+getch();
+return 0;
+}
