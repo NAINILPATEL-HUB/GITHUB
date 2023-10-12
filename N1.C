@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<conio.h>
-int main()
+void main()
  {
     int numbers[25];
     int positiveCount = 0, negativeCount = 0, evenCount = 0, oddCount = 0 ,i;
